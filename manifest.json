@@ -10,7 +10,7 @@
     "storage"
   ],
   "browser_action": {
-    "default_icon": "icon.png",
+    "default_icon": "cccmarker.png",
     "default_popup": "popup.html"
   }, 
 
