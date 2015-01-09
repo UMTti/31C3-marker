@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "CCC marker",
+  "description": "With this extension, you can remember whitch CCC videos you've already watched.",
+  "version": "1.0",
+
+  "permissions": [
+    "tabs", 
+    "storage"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }, 
+
+  "content_scripts": [
+    {
+      // Change 'matches' attribute to load content
+      // script only in pages you want to.
+      "matches": ["http://media.ccc.de/browse/congress/2014/*"],
+      "css": ["basic.css"],
+      "js": ["jquery-1.11.2.min.js", "contentscript.js"]
+    }
+  ]
+}
