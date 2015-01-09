@@ -1,9 +1,8 @@
- 31C3 marker
- ===========
+#31C3 marker
 
 
- Installation
- ------------
+##Installation
+ 
 
    git clone https://github.com/UMTti/31C3-marker.git
    In Chrome/Chromium, go to More tools -> Extensions. 
