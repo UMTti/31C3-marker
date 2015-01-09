@@ -13,7 +13,6 @@ $(document).ready(function() {
 
 
 function modifyData(amount) {
-        // Get a value saved in a form.
          
         chrome.storage.local.get('lista', function (result) {
             lista = result.lista;
